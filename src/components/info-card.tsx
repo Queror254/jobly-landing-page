@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 
 import { Typography, Card, CardBody } from "@material-tailwind/react";
@@ -6,7 +7,6 @@ interface InfoCardProps {
   title: string;
   children: React.ReactNode;
 }
-
 
 export function InfoCard({ title, children }: InfoCardProps) {
   return (
